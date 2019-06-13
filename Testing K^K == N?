@@ -1,0 +1,6 @@
+function kToK(n, k) {
+	if(Math.pow(k,k) === n){
+		return true;
+	}
+	return false;
+}
