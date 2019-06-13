@@ -1,0 +1,5 @@
+function find_index(arr, str) {
+	if(arr.includes(str)){
+		return arr.indexOf(str);
+	}
+}
