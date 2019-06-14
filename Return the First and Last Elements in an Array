@@ -1,1 +1,6 @@
-
+function firstLast(arr) {
+	var newArr = [];
+	newArr.push(arr.shift());
+	newArr.push(arr.pop());
+	return newArr;
+}
