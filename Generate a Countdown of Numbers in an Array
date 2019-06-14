@@ -1,0 +1,7 @@
+function countdown(start) {
+	var arr = [];
+	for(var i = 0; i <= start; i++){
+		arr.push(i);
+	}
+	return arr.reverse();
+}
