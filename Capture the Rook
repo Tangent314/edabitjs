@@ -1,0 +1,6 @@
+function canCapture([yourRook, opponentsRook]) {
+	if(yourRook.charAt(0) === opponentsRook.charAt(0) || yourRook.charAt(1) === opponentsRook.charAt(1) ){
+		return true;
+	}
+	return false;
+}
