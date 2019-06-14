@@ -1,0 +1,3 @@
+function subReddit(link) {
+	return link.slice(25, link.length -1);
+}
