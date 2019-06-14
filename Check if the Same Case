@@ -1,0 +1,6 @@
+function sameCase(str) {
+	if(str === str.toLowerCase() || str === str.toUpperCase()){
+		return true;
+	}
+	return false;
+}
