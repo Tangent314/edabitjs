@@ -1,0 +1,9 @@
+function filterStateNames(arr, type) {
+	return arr.filter(function(state){
+		if(type == "abb"){
+		return state.length == 2;
+		} else {
+			return state.length > 2;
+		}
+	});
+}
