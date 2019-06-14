@@ -1,0 +1,6 @@
+function toArray(str) {
+	if(str.length > 0){
+		return str.split(", ");
+	}
+	return [];
+}
