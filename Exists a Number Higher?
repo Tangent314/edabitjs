@@ -1,0 +1,3 @@
+function existsHigher(arr, n) {
+	return arr.some(el => el >= n);
+}
