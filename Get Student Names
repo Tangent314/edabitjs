@@ -1,0 +1,4 @@
+function getStudentNames(students) {
+	return students.map(obj =>
+		obj.name
+)}
