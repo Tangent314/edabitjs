@@ -1,0 +1,3 @@
+function dictionary(initial, words) {
+	return words.filter(letter => letter.startsWith(initial) );
+}
