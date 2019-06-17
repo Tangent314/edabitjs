@@ -1,0 +1,4 @@
+function Go(num) {
+	var dash = "-";
+	return dash.repeat(num);
+}
