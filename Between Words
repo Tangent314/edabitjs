@@ -1,0 +1,9 @@
+function isBetween(first, last, word) {
+	var list = [];
+	list.push(first, last, word);
+	list.sort();
+	if(word == list[1]){
+		return true;
+	}
+	return false;
+}
