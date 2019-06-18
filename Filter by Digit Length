@@ -1,0 +1,9 @@
+function filterDigitLength(arr, num) {
+	return arr.filter(function (x) {
+										if(x.toString().length === num){
+		return x;
+	} else if(x.toString().length !== num){
+		return "";
+	}
+										})
+}
