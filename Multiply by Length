@@ -1,0 +1,3 @@
+function MultiplyByLength(arr) {
+	return arr.map(x => x * arr.length)
+}
