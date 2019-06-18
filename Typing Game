@@ -1,0 +1,11 @@
+function correctStream(user, correct) {
+	var list = [];
+	for(var i = 0; i < correct.length; i++){
+		if(user[i] == correct[i]){
+			list.push(1);
+		} else {
+			list.push(-1);
+		}
+	}
+	return list;
+}
