@@ -1,0 +1,9 @@
+function convertCartesian(x, y) {
+	var arr = [];
+	for(var i = 0; i < x.length; i++){
+		var arr1 = [];
+		arr1.push(x[i], y[i]);
+		arr.push(arr1);
+	}
+	return arr;
+}
