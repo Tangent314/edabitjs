@@ -1,0 +1,8 @@
+function nthSmallest(arr, n) {
+	for(var i = 0; i <= arr.sort().length; i++){
+		if(i == n){
+			return arr[i-1];
+			}
+		}
+	return null;
+	}
