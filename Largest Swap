@@ -1,0 +1,6 @@
+function largestSwap(num) {
+	if(num.toString().charAt(0) > num.toString().charAt(1)  || num.toString().charAt(0) === num.toString().charAt(1)){
+		return true;
+	}
+	return false;
+}
