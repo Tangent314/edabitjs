@@ -1,0 +1,4 @@
+function firstVowel(str) {
+	var vowel = /[aeiouAEIOU]/
+	return str.search(vowel);
+}
