@@ -1,0 +1,14 @@
+function hashPlusCount(str) {
+	var hash = 0;
+	var plus = 0;
+	for(var i = 0; i < str.split("").length; i++){
+		if(str.split("")[i] == "#"){
+			hash++;
+		} else if(str.split("")[i] == "+"){
+			plus++;
+		} else {
+			return [hash, plus];
+		}
+	}
+	return [hash, plus];
+}
