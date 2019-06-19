@@ -1,0 +1,4 @@
+function changeEnough(change, amountDue) {
+	var coinValue = [0.25, 0.10, 0.05, 0.01]
+	return change.reduce((total,changeValue,i) => total + changeValue * coinValue[i]) > amountDue;
+}
