@@ -1,0 +1,4 @@
+function lettersOnly(str) {
+	var title = str.replace(/\d*\W*/g, '');
+	return title.replace(/\_/g, '');
+}
