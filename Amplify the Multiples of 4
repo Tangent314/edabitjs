@@ -1,0 +1,11 @@
+function amplify(num) {
+	var arr = [];
+	for(var i = 1; i <= num; i++){
+		arr.push(i);
+	}
+	return arr.map(x => {if(x % 4 === 0){ 
+		return x * 10;
+		}
+			return x;
+	});
+}
