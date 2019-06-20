@@ -1,0 +1,6 @@
+function sumOfCubes(nums) {
+	if(nums == 0){
+		return 0
+	}
+	return nums.map(x => Math.pow(x, 3)).reduce((a,b) => a + b);
+}
