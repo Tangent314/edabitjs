@@ -1,0 +1,7 @@
+function reverseCase(str) {
+	return str.split("").map(x => {if (x == x.toLowerCase()){
+		return x.toUpperCase();
+		}
+			return x.toLowerCase();
+	}
+).join("")};
