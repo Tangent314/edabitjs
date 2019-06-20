@@ -1,0 +1,3 @@
+function convertBinary(str) {
+	return str.split("").map(x => (x == x.match(/[a-mA-M]/g)) ? '0': '1').join("");
+}
