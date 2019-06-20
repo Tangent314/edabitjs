@@ -1,0 +1,4 @@
+function indexShuffle(str) {
+	let [even, odd] = [...str].reduce((x,cur,i) => (x[i%2].push(cur), x) , [[],[]]);
+	return even.join("") + odd.join("");
+}
