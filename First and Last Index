@@ -1,0 +1,6 @@
+function charIndex(word, char) {
+	if(word.includes(char)){
+		return [word.indexOf(char,0), word.lastIndexOf(char,word.length)];
+	}
+	return undefined;
+}
