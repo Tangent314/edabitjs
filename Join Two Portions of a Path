@@ -1,0 +1,5 @@
+function joinPath(portion1, portion2) {
+	var p1 = portion1.split("").filter(x => x.replace("/","")).join("");
+	var p2 = portion2.split("").filter(x => x.replace("/","")).join("");
+	return p1 + "/" + p2;
+}
