@@ -1,0 +1,4 @@
+function countOnes(matrix) {
+	let combine = matrix.reduce((accum, currentValue) => accum.concat(currentValue));
+	return combine.filter(x => x == 1).length;
+}
