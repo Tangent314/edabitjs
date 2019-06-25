@@ -1,0 +1,4 @@
+function maximumScore(tileHand) {
+	let initValue = 0
+	return tileHand.reduce((accum, curr) => accum + curr.score, initValue)
+}
