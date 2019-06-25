@@ -1,0 +1,9 @@
+function last(a, n) {
+	if(n == 0){
+		return [];
+	} else if(n > a.length){
+		return "invalid";
+	} else {
+		return a.slice(a.length-n);
+	}
+}
