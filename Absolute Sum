@@ -1,0 +1,6 @@
+function getAbsSum(arr) {
+	if(arr.length === 1){
+		return Math.abs(arr[0])
+	}
+	return arr.reduce((a,b) => Math.abs(a) + Math.abs(b));
+}
