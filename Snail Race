@@ -1,0 +1,16 @@
+function mauriceWins(mSnails, sSnails) {
+	let s = [sSnails[2], sSnails[0], sSnails[1]];
+	let mWin = 0;
+	let sWin = 0;
+	for(let i = 0; i < s.length; i++){
+		if(s[i] >= mSnails[i]){
+			sWin++;
+		} else{
+			mWin++;
+		}
+	}
+	if(mWin > sWin){
+		return true;
+	}
+	return false;
+}
