@@ -1,0 +1,3 @@
+function transformUpvotes(str) {
+	return str.split(' ').map(x => (x.endsWith('k')) ? parseFloat(x.slice(0,x.length -1)) * 1000 : parseFloat(x));
+}
