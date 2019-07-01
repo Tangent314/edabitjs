@@ -1,0 +1,3 @@
+String.prototype.vreplace = function(vowel) {
+	return this.replace(/[aeio]/gi, vowel);
+}
