@@ -1,0 +1,7 @@
+function isValid(zip) {
+	if(zip.length > 5){
+		return false;
+	}
+	let num = RegExp(/[0-9]{5}/gi);
+	return num.test(zip);
+}
