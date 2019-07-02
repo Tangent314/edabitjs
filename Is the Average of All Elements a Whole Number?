@@ -1,0 +1,5 @@
+function isAvgWhole(arr) {
+	let sum = arr.reduce((accum, curr) => accum + curr);
+	let avg = sum / arr.length;
+	return Number.isInteger(avg);
+}
