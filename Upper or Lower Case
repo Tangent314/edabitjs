@@ -1,0 +1,5 @@
+function stepsToConvert(str) {
+	 let upper = str.length - str.replace(/[A-Z]/g,'').length;
+	 let lower = str.length - str.replace(/[a-z]/g, '').length;
+	 return Math.min(upper, lower);
+}
