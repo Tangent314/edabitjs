@@ -1,0 +1,8 @@
+function mean(num) {
+	let numbers = num.toString().split('');
+	let arr = [];
+	for(let digit of numbers){
+		arr.push(parseInt(digit));
+	}
+	return arr.filter( value => !Number.isNaN(value) ).reduce((acc,curr) => acc + curr)/arr.filter( value => !Number.isNaN(value) ).length;
+}
