@@ -1,0 +1,8 @@
+function search(arr, item) {
+	for(let num of arr){
+		if(num === item){
+			return arr.indexOf(num);
+		}
+	}
+	return -1;
+}
