@@ -1,0 +1,7 @@
+function sum(arr) {
+	if(arr == ''){
+		return 0;
+	} else{
+		return arr.reduce((sum, num) => sum + num);
+	}
+}
