@@ -1,0 +1,3 @@
+function findZip(str) {
+	return str.indexOf('zip',(0 + str.length)/2);
+}
