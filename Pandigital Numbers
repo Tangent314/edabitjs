@@ -1,0 +1,10 @@
+function isPandigital(num) {
+	let numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+	let digits = num.toString().split('');
+	let numSet = new Set(digits);
+	if([...numSet].length == numbers.length){
+		return true;
+	} else {
+		return false;
+	};
+}
