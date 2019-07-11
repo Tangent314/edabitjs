@@ -1,0 +1,7 @@
+function preventDistractions(str) {
+	if(str.includes('anime') || str.includes('meme') || str.includes('vine') || 
+		 str.includes('roasts') || str.includes('Danny Devito')){
+		return "NO!";
+	}
+	return "Safe watching!";
+}
