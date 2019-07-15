@@ -1,0 +1,7 @@
+function puzzlePieces(a1, a2) {
+	if(a1.length == a2.length){
+		let sum = a1.map((x,i) => x + a2[i]);
+		return sum.every((x) => x === sum[0]);
+	}
+	return false;
+}
