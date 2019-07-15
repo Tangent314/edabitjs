@@ -1,0 +1,11 @@
+function Book(title, author) {
+	// Write your properties and methods here
+	this.title = title;
+	this.author = author;
+	this.getTitle = () => 'Title: ' + this.title;
+	this.getAuthor = () => 'Author: ' + this.author;
+}
+// Instantiate your Book constructor here
+let PP = new Book('Pride and Prejudice', 'Jane Austen');
+let H = new Book('Hamlet', 'William Shakespeare');
+let WP = new Book('War and Peace', 'Leo Tolstoy');
