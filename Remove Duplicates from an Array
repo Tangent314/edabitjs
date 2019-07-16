@@ -1,0 +1,4 @@
+function removeDups(arr) {
+	let list = new Set(arr);
+	return Array.from(list);
+}
