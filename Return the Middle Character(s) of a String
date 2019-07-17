@@ -1,0 +1,6 @@
+function getMiddle(str) {
+	if(str.length % 2 == 1){
+		return str.charAt(Math.floor(str.length/2));
+	}
+	return str.charAt(Math.floor(str.length/2) - 1) + str.charAt(Math.ceil(str.length/2));
+}
