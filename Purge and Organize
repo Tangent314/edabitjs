@@ -1,0 +1,4 @@
+function uniqueSort(arr) {
+	let list = new Set(arr);
+	return Array.from(list).sort((a,b) => a > b);
+}
