@@ -1,0 +1,5 @@
+function percentDiff(num1, num2) {
+	const difference = Math.abs(num2 - num1);
+	const average = (num1 + num2) / 2;
+	return parseFloat(Number.parseFloat(((difference / average) * 100)).toFixed(1));
+}
