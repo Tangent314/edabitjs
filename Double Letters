@@ -1,0 +1,4 @@
+function doubleLetters(word) {
+	let regExp = /(\w)\1/gi;
+	return regExp.test(word);
+}
