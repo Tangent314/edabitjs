@@ -1,0 +1,10 @@
+function countOnes(i) {
+	let count = 0;
+	let bin = i.toString(2);
+	for(let j = 0; j < bin.length; j++){
+		if(bin[j] == 1){
+			count++
+		}
+	}
+	return count;
+}
