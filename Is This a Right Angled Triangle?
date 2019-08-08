@@ -1,0 +1,9 @@
+function rightTriangle(x, y, z) {
+	let legs = [x, y, z];
+	let sortedLegs = legs.sort((a,b) => a - b);
+	if(sortedLegs[0] <= 0){
+		return false;
+	}
+	return (Math.pow(sortedLegs[0],2) + Math.pow(sortedLegs[1],2)) === Math.pow(sortedLegs[2],2);
+	
+}
