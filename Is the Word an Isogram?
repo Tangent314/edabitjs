@@ -1,0 +1,4 @@
+function isIsogram(str) {
+	const set = new Set(str.toLowerCase().split(''));
+	return [...set].length === str.length;
+}
