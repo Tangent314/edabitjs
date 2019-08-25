@@ -1,0 +1,7 @@
+function validateEmail(str) {
+	let list = str.split("");
+	if( list.indexOf("@") > 1 && list.lastIndexOf(".",list.length -1) > list.indexOf("@")) {
+		return true;
+	}
+	return false;
+}
