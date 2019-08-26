@@ -1,0 +1,7 @@
+function boxSeq(step) {
+	if( step % 2 === 1) {
+		return step + 2;
+	} else {
+		return step;
+	}
+}
