@@ -1,0 +1,8 @@
+function keysAndValues(obj) {
+	let arr1 = Object.keys(obj);
+	let arr2 = [];
+	for(let value in obj) {
+		arr2.push(obj[value]);
+	}
+	return [arr1,arr2];
+}
