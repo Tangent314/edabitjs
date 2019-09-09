@@ -1,0 +1,10 @@
+function indexMultiplier(arr) {
+	if(arr.length == 0) {
+		return 0;
+	} else {
+		return arr.map((x,index) => x * index)
+							.reduce((accumulator, currentValue) =>
+							accumulator + currentValue);
+	}
+		 
+}
