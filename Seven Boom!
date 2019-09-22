@@ -1,0 +1,7 @@
+function sevenBoom(arr) {
+	let seven = arr.toString().includes('7');
+	if(seven){
+		return `Boom!`
+	}
+	return `there is no 7 in the array`;
+}
